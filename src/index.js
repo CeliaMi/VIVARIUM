@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Portada from './components/portada';
-import bloque3 from './components/bloque3/bloque3';
+import Bloque3 from './components/bloque3/bloque3';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Portada />
-    <bloque3 />
+    <Bloque3 />
+    
   </React.StrictMode>
 );
 

@@ -1,15 +1,15 @@
 
-import './estilob3.css';
+import '../bloque3/estilob3.css'
 
 
-function bloque3() {
+function Bloque3() {
   return (
     <section className="bloque">
         <h1> </h1>
 
         <div>
 
-            <div className='flormulario'></div>
+            <div className='formulario'></div>
             <div className='mapa'>
                 <div className='apiMapa'></div>
                 <div className='apiTiempo'></div>
@@ -23,4 +23,4 @@ function bloque3() {
 
 
 
-export default bloque3;
+export default Bloque3;
