@@ -1,0 +1,43 @@
+.Portada {
+    text-align: center;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Portada-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+.Portada-header {
+    background-image: url("../src/imagenes/fondo-portada.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  
+.App-link {
+    color: #fff;
+  }
+
+.Barra {
+    list-style:none;
+    
+
+  }
+li {
+    float:right;
+    display:flex;
+    
+
+}
+  
+.Footer {
+    background-color: blue;
+  }
