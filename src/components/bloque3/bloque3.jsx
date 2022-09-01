@@ -1,11 +1,10 @@
-
 import './estilob3.css';
 
 
-function bloque3() {
+function Bloque3() {
   return (
     <section className="bloque">
-        <h1> </h1>
+        <h1> HOLA HOLA</h1>
 
         <div>
 
@@ -23,4 +22,4 @@ function bloque3() {
 
 
 
-export default bloque3;
+export default Bloque3;
