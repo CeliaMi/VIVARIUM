@@ -1,14 +1,37 @@
 .bloque{
-    background-color: aquamarine;
-
+    background-image: url("../../imagenes/fondo-portada.jpg");
+    size:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 
-.formulario{
-    background-color: rgb(233, 95, 141);
+.cardFormulario{
+    background: #FFFFFF;
+    width: 444.61px;
+    height: 453.55px;
+    border-radius: 5px;
+    display:inline-block;
+    margin-left:39px;
 }
 
-.mapa{
-    background-color: rgb(160, 62, 206);
+
+.cardMapa{
+    background: #031B27;
+    width: 444.61px;
+    height: 453.55px;
+    border-radius: 5px;
+    display:inline-block;
+    margin-right:39px;
+}
+
+.h2Bloque3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .apiMapa{
