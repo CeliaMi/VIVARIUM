@@ -11,7 +11,6 @@
 .Portada-header {
     background-image: url("../src/imagenes/fondo-portada.jpg");
     background-size: cover;
-    background-blend-mode: darken;
     padding-bottom: 50px;
     padding-left: 20px;
     min-height: 100vh;
@@ -28,17 +27,33 @@
 
 .Barra {
     list-style:none;
+    float: right;
     
-
   }
+.entradilla{
+  
+
+}
+
+
+h2 {
+  font-weight: 400;
+}
+
 li {
-    float:right;
-    display:flex;
+  display: inline-block; 
+  padding:10px; 
+ 
+ 
+  
+
+   
     
 
 }
   
 .Footer {
+
     color: #fff;
     background-color: rgb(2, 2, 31);
   }
@@ -51,3 +66,4 @@ li {
 .copy { 
   text-align: center;
 }
+
