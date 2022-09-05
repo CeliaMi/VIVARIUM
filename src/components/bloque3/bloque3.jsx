@@ -15,7 +15,16 @@ function Bloque3() {
             </div>
             <div>
               <h2 className="h2Bloque3">Apadrina</h2>
-              <div className='cardFormulario'></div>
+              <div className='cardFormulario'>
+                <form className='formulario'>
+                  <input className='inputform' placeholder='Nombre y apellidos' id=''></input>
+                  <input className='inputform' placeholder='Email' id=''></input>
+                  <input className='inputform' placeholder='Especies a adoptar' id=''></input>
+                  <input className='inputform' placeholder='Cantidad' id=''></input>
+                  <button className='enviar'>Enviar</button>
+                  
+                </form>
+              </div>
             </div>                 
     </section>
   );

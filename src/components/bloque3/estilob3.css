@@ -15,6 +15,15 @@
     display:inline-block;
     margin-left:39px;
 }
+.formulario{
+   align-content: center; 
+}
+.inputform{
+    border-color: transparent;
+    border-bottom-color: #031B27;
+    display:block;
+}
+
 
 
 .cardMapa{
