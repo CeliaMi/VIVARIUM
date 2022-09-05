@@ -1,15 +1,20 @@
 import React from "react"
 import especie1 from '../imagenes/pradera-de-posidonia 2.svg';
-import '../css/catalogo.css';
-import { findRenderedComponentWithType } from "react-dom/test-utils";
+import '../css/Catalogo.css';
 
 function Catalogo() {
   return (
     <div className="Catalogo">
       <header className="Catalogo-header">
-      <div className="tarjeta">
-      <img src={especie1} className="Portada-logo" alt="logo"/>
-
+      <div className="CardC">
+      <div className="CardC-inner">
+      <div className="CardC-face CardC-face-front">
+      <h2>Posidonia Oceánica</h2>
+      </div>
+      <div className="CardC-face CardC-face-back">
+      
+      </div>
+      </div>
       </div>
       </header>
     </div>

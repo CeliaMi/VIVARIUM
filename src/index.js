@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Portada from './components/portada';
-import Catalogo from './components/catalogo';
-import db from "./db.json";
-
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Portada />
-    <Catalogo />
+    <App />
   </React.StrictMode>
 );
 
