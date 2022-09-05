@@ -1,7 +1,6 @@
 
 import './estilob3.css';
 
-
 function Bloque3() {
   return (
     <section className="bloque">
@@ -21,7 +20,7 @@ function Bloque3() {
                   <input className='inputform' placeholder='Email' id=''></input>
                   <input className='inputform' placeholder='Especies a adoptar' id=''></input>
                   <input className='inputform' placeholder='Cantidad' id=''></input>
-                  <button className='enviar'>Enviar</button>
+                  <button className='enviar'>Enviar ❤</button>
                   
                 </form>
               </div>

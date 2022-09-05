@@ -9,7 +9,7 @@
 }
 
 .Portada-header {
-  background-image: url("../src/imagenes/fondo-portada.jpg");
+  background-image: url("../src/imagenes/fondo-vivarium-web.png");
   background-size: cover;
   background-blend-mode: darken;
   padding-bottom: 50px;

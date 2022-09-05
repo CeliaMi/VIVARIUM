@@ -1,10 +1,26 @@
 .bloque{
-    background-image: url("../../imagenes/fondo-portada.jpg");
-    size:100%;
+    background-image: url("../../imagenes/fondo-vivarium-web-rotada.png");
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.h2Bloque3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
 }
 
 .cardFormulario{
@@ -16,37 +32,64 @@
     margin-left:39px;
 }
 .formulario{
-   align-content: center; 
+    padding-top: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
 }
 .inputform{
     border-color: transparent;
-    border-bottom-color: #031B27;
+    border-bottom-color: #060c14;
     display:block;
+    width:300px;
+    padding: 10px;
+    margin-block: 8px;
+    
 }
 
-
+.enviar{
+    background-color: #060c14;
+    border: 1px solid #060c14;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: White;
+    width: 164.61px;
+    height: 39.3px;
+    margin: 20px;
+    font-size:medium;
+}
 
 .cardMapa{
-    background: #031B27;
+    background: #060c14;
     width: 444.61px;
     height: 453.55px;
     border-radius: 5px;
-    display:inline-block;
     margin-right:39px;
-}
-
-.h2Bloque3{
-
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-
 }
 
 .apiMapa{
-    background-color: rgb(48, 87, 196);
+    background-color: rgb(248, 248, 248);
+    width: 372px;
+    height: 263px;
+    left: 222px;
+    top: 2730px;
+    padding-top: 40px;
+    align-items: center; 
+    justify-content: center;
+    margin:20px auto;
 }
 
 .apiTiempo{
-    background-color: rgb(255, 251, 0);
+    background-color: white;
+    width: 372px;
+    height: 20px;
+    left: 222px;
+    top: 2730px;
+    padding-top: 40px;
+    align-items: center; 
+    justify-content: center;
+    margin:10px auto;
 }
