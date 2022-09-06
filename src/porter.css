@@ -53,5 +53,17 @@ li {
 }
   
 .Footer {
-    background-color: #031B27;
+
+    color: #fff;
+    background-color: rgb(2, 2, 31);
   }
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copy { 
+  text-align: center;
+}
+
