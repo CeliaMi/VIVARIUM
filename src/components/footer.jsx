@@ -7,12 +7,14 @@ function Footer() {
           <div className='MisiónF'>
             <h2>Nuestra Misión</h2>
             <h3>Crear conciencia</h3>
-            <p>Contribuir a mejorar el conocimiento e importancia</p>
-            <p>de las gorgonias y posidonias en el mar mediterráneo,</p>
-            <p>para fomentar su conservación.</p>
+            <p>Contribuir a mejorar el conocimiento e</p>
+            <p>importancia de las gorgonias y posidonias</p>
+            <p>en el mar mediterráneo, para</p>
+            <p>fomentar su conservación.</p>
             <h3>Restaurar</h3>
-            <p>Cultivar y repoblar algunas zonas en el mediterráneo,</p>
-            <p>frenar el declive y favorecer la protección de las</p>
+            <p>Cultivar y repoblar algunas zonas</p>
+            <p>en el mediterráneo, frenar el declive</p>
+            <p>y favorecer la protección de las</p>
             <p>gorgonias y posidonias.</p>
           </div>
           <div className='Nosotros'>
