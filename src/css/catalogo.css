@@ -1,78 +1,60 @@
-* {
-    margin: 0;
-    padding: 0;
-    background-color: #031B27;
-    color: #fff;
-}
-
-.Catalogo-header{
-    background-color: #031B27;
-    
-}
-
-.CardC{
+.Catalogo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #021B27;
+  }
+  
+  .Cards {
     margin: 100px auto 0;
-    width: 400px;
-    height: 600px;
-}
+    width: 300px;
+    height: 500px;
+  }
 
-.CardC-inner{
+  .CardsInner {
     width: 100%;
     height: 100%;
     transition: transform 1s;
     transform-style: preserve-3d;
     cursor: pointer;
-    position: relative;
-}
-
-.CardC-inner.is-flipped {
+  }
+  
+  .CardsInner.is-flipped {
     transform: rotateY(180deg);
-}
+  }
 
-.CardC-face{
-    position: absolute;
+  
+.CardsFace {
+    position: fixed;
+    /* position: absolute; */
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
     border-radius: 5px;
-}
-
-.CardC-face-front{
-    background-color: transparent;
     border: 3px solid #fff;
+  }
+  
+  .CardsFaceFront {
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.CardC-boton-front{
-    width: 100px;
-}
-
-.CardC-face-front h2{
-    font-size: 32px;
-}
-
-.CardC-face-back{
-    background-color: transparent;
-    border: 3px solid #fff;    
-    color: #000;
+  }
+  
+  
+  .CardsFaceBack {
+    background-color: #fff;
+    position: relative;
     transform: rotateY(180deg);
-}
-
-.CardC-content{
-    width: 100%;
-    height: 100%;
-}
-
-.CardC-header{
+  }
+  
+  .CardsHeader {
     position: relative;
     padding: 30px 30px 40px;
-}
-
-.CardC-header:after{
+  }
+  
+  /* .card__header:after {
     content: '';
     display: block;
     position: absolute;
@@ -81,29 +63,83 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    border-radius: 0 0 50% 0;
-}
-
-.CardC-imagen{
+    border-radius: 0px 0px 50% 0px;
+  } */
+  
+  .pp {
     display: block;
-    width: 250px;
-    height: 250px;
-    margin: 0 auto 30px;
-}
-
-.btn{
-    font-size: 1em;
-    color: #fff;
-    background: transparent;
-    border: 2px solid #fff;
-    display: inline-block;
-    padding: 10px 30px;
-    margin-top: 20px;
-    text-decoration: none;
-    transition: 0.5s;
+    width: 240px;
+    height: 240px;
+    margin: 30px 10px 5px 10px;
+    /* border-radius: 50%;
+    background-color: #FFF;
+    border: 5px solid #FFF;
+    object-fit: cover; */
   }
   
-  .btn:hover{
+  .VerMas{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 40px auto;
+  }
+  
+  .CardsHeader h2 {
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  .CardsBody {
+    background-color: #fff;
+    padding: 30px;
+  }
+  
+  .CardsBody p {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  
+  .Btn {
+    color: #fff;
+    background: #031B27;
+    border: 2px solid #031B27;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .BotonBack{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .card__body,
+   .btn{
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .BotonMeGusta{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+  
+  /* .btn:hover {
     background: #fff;
     color: #000;
-  }
+  } */
