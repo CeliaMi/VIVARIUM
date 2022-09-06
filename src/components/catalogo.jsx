@@ -1,7 +1,7 @@
 import React from "react"
 import especie1 from '../imagenes/pradera-de-posidonia 2.svg';
 import mas from '../imagenes/mas.svg'
-import '../css/Catalogo.css';
+import '../css/catalogo.css';
 
 function Catalogo() {
   return (

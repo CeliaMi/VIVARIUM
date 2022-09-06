@@ -1,7 +1,7 @@
 import './App.css';
 //import db from "./db.json";
 import Portada from './components/portada';
-import Catalogo from './components/Catalogo';
+import Catalogo from './components/catalogo';
 
 function App() {
   return (
