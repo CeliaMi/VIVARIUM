@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './App.css';
 import Portada from './components/portada';
 import Footer from './components/footer';
+import Bloque3 from './components/bloque3/bloque3';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Portada />
+    <Bloque3 />
     <Footer />
   </React.StrictMode>
 
