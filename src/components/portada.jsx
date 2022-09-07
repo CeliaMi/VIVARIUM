@@ -13,18 +13,17 @@ function Portada() {
         </nav>
         <img src={logo} className="Portada-logo" alt="logo" />
         
-        <p className="entradilla">
+        <p className="Entradilla">
         Vivarium es un espacio donde vas a encontrar distintas especies con las que hacer match y ayudarles a equilibrar el ecosistema marino. Anímate a conocerlas y podrás tener un seguimiento personalizado.
         </p>
         <h2> Devuelve la vida a los océanos</h2>
         <a
-        
           className="App-link"
           href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Apadrina aqui
+          APADRINAR
         </a>
         
       </header>

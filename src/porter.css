@@ -9,7 +9,7 @@
   }
   
 .Portada-header {
-    background-image: url("../src/imagenes/fondo-portada.jpg");
+    background-image: url("../src/imagenes/fondo-vivarium-web.png");
     background-size: cover;
     padding-bottom: 50px;
     padding-left: 20px;
@@ -26,13 +26,28 @@
   }
 
 .Barra {
+    color: white;
     list-style:none;
     float: right;
-    
+    margin-left: 1000px;
   }
+li {
+  display: inline-block; 
+  padding:10px;
+  
+
+}
+   
+.Entradilla{
+  color: white;
+  text-align: center;
+  margin: 100px 300px 30px 300px;
+}
+
 
 
 h2 {
+<<<<<<< HEAD
   font-weight: 400;
   text-align: center;
   font-weight: bold;
@@ -46,12 +61,28 @@ li {
  
  
   
+=======
+  color: white;
+  font-weight: bold;
+  
+}
 
-   
-    
+a {
+  font-size: 1em;
+    color: #fff;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+>>>>>>> 06f486f0168c337289ba9a680779984481ad4167
+
 
 }
-  
+ 
 .Footer {
 
     color: #fff;
