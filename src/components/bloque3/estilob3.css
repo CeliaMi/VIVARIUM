@@ -28,8 +28,9 @@
     width: 444.61px;
     height: 453.55px;
     border-radius: 5px;
-    display:inline-block;
+    display:block;
     margin-left:39px;
+    justify-content: center;
 }
 .formulario{
     padding-top: 40px;
