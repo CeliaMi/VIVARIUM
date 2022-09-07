@@ -1,0 +1,41 @@
+{
+    "especies": 
+    [
+        {
+        "id": 1,
+        "nombre": "Posidonia Oceánica",
+        "texto" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "img" : "https://img.freepik.com/fotos-premium/pradera-hierba-neptuno-posidonia-oceanica-mar-mediterraneo_673414-70.jpg?w=996"
+    },
+    {
+        "id": 2,
+        "nombre": "Gorgonia Abanico",
+        "texto" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "img" : "https://img.freepik.com/fotos-premium/pradera-hierba-neptuno-posidonia-oceanica-mar-mediterraneo_673414-70.jpg?w=996"
+    },
+    {
+        "id": 3,
+        "nombre": "Gorgonia Abanico",
+        "texto" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "img" : "https://img.freepik.com/fotos-premium/pradera-hierba-neptuno-posidonia-oceanica-mar-mediterraneo_673414-70.jpg?w=996"
+    },
+    {
+        "id": 4,
+        "nombre": "Gorgonia Abanico",
+        "texto" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "img" : "https://img.freepik.com/fotos-premium/pradera-hierba-neptuno-posidonia-oceanica-mar-mediterraneo_673414-70.jpg?w=996"
+    },
+    {
+        "id": 5,
+        "nombre": "Gorgonia Abanico",
+        "texto" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "img" : "https://img.freepik.com/fotos-premium/pradera-hierba-neptuno-posidonia-oceanica-mar-mediterraneo_673414-70.jpg?w=996"
+    },
+    {
+        "id": 6,
+        "nombre": "Gorgonia Abanico",
+        "texto" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "img" : "https://img.freepik.com/fotos-premium/pradera-hierba-neptuno-posidonia-oceanica-mar-mediterraneo_673414-70.jpg?w=996"
+    }
+]
+}
