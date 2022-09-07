@@ -4,12 +4,16 @@ import './App.css';
 import Portada from './components/portada';
 import Footer from './components/footer';
 import Bloque3 from './components/bloque3/bloque3';
+import Catalogo from './components/catalogo';
+import './index.css';
+import './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Portada />
+    <Catalogo />
     <Bloque3 />
     <Footer />
   </React.StrictMode>
