@@ -30,12 +30,15 @@
     float: right;
     
   }
+<<<<<<< HEAD
  
 
   
   
 
 
+=======
+>>>>>>> ad50f97854495bc3eb020e4d622b8a2c57c92100
 
 
 h2 {
@@ -69,3 +72,6 @@ li {
   text-align: center;
 }
 
+.MisiónF {
+  text-align: left;
+}

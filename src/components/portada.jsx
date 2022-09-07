@@ -17,11 +17,17 @@ function Portada() {
         Vivarium es un espacio donde vas a encontrar distintas especies con las que hacer match y ayudarles a equilibrar el ecosistema marino. Anímate a conocerlas y podrás tener un seguimiento personalizado.
         </p>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <h2> Devuelve la vida a los océanos</h2>
         <a
 =======
       <a
 >>>>>>> d6859466e2f7367e50bf292a9542cbc9f743842f
+=======
+        <h2> Devuelve la vida a los océanos</h2>
+        <a
+        
+>>>>>>> ad50f97854495bc3eb020e4d622b8a2c57c92100
           className="App-link"
           href="#"
           target="_blank"
