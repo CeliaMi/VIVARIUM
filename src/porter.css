@@ -47,7 +47,7 @@ li {
 
 
 h2 {
-<<<<<<< HEAD
+  color: white;
   font-weight: 400;
   text-align: center;
   font-weight: bold;
@@ -58,29 +58,6 @@ h2 {
 li {
   display: inline-block; 
   padding:10px; 
- 
- 
-  
-=======
-  color: white;
-  font-weight: bold;
-  
-}
-
-a {
-  font-size: 1em;
-    color: #fff;
-    background: transparent;
-    border-radius: 5px;
-    border: 2px solid #fff;
-    display: inline-block;
-    padding: 10px 30px;
-    margin-top: 20px;
-    text-decoration: none;
-    letter-spacing: 2px;
->>>>>>> 06f486f0168c337289ba9a680779984481ad4167
-
-
 }
  
 .Footer {
