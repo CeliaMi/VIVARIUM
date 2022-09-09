@@ -17,15 +17,15 @@ function Bloque3() {
               <div className='cardFormulario'>
                 <form className='formulario'>
                   <input className='inputform' placeholder='Nombre y apellidos' id='nomape'></input>
-                  <div id='alerta1'></div>
+                  <div className='alertita' id='alerta1'></div>
                   <input className='inputform' placeholder='Email' id='email'></input>
-                  <div id='alerta2'></div>
+                  <div className='alertita' id='alerta2'></div>
                   <input className='inputform' placeholder='Especies a adoptar' id='especie'></input>
-                  <div id='alerta3'></div>
+                  <div className='alertita' id='alerta3'></div>
                   <input type='number' className='inputform' placeholder='Cantidad' id='cantidad'></input>
-                  <div id='alerta4'></div>
+                  <div className='alertita' id='alerta4'></div>
                   <button type='button' className='enviar' value='Enviar' onClick={clickeado}>Enviar ❤</button>
-                  <div id='alerta5'></div>
+                  <div className='alertitaGuay' id='alerta5'></div>
 
                 </form>
               </div>
@@ -50,22 +50,29 @@ function clickeado() {
   
   if (nombre == "") {
     alerta1.innerHTML = "Complete campo nombre"; 
-} 
-  else if (correo == "") {
+} else { 
+    alerta1.innerHTML = " "
+}
+  if (correo == "") {
     alerta2.innerHTML = "Complete campo correo";
-}
-  else if (!regex.test(correo)) {
+} else if (!regex.test(correo)) {
     alerta2.innerHTML= "Debe introducir un correo valido";
+} else {
+    alerta2.innerHTML = " "
 }
-  else if (especie == "") {
+  if (especie == "") {
     alerta3.innerHTML = "Complete campo especie";
+} else {
+    alerta3.innerHTML = " "
 }
-  else if (cantidad == "") {
+  if (cantidad == "") {
     alerta4.innerHTML = "Complete campo cantidad";
+} else {
+    alerta4.innerHTML = " "
 }
-  else {
-      alerta5.innerHTML = "Enviado"
-  }
+  if ( nombre, correo, especie, cantidad)  {
+      alerta5.innerHTML = "Enviado 💙"
+}
     
 }
 
