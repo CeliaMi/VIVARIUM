@@ -22,9 +22,9 @@ function Bloque3() {
                   <div id='alerta2'></div>
                   <input className='inputform' placeholder='Especies a adoptar' id='especie'></input>
                   <div id='alerta3'></div>
-                  <input className='inputform' placeholder='Cantidad' id='cantidad'></input>
+                  <input type='number' className='inputform' placeholder='Cantidad' id='cantidad'></input>
                   <div id='alerta4'></div>
-                  <button className='enviar' value='Enviar' onClick={clickeado}>Enviar ❤</button>
+                  <button type='button' className='enviar' value='Enviar' onClick={clickeado}>Enviar ❤</button>
                   <div id='alerta5'></div>
 
                 </form>
@@ -36,9 +36,11 @@ function Bloque3() {
 function clickeado() {
   var nombre = document.getElementById("nomape").value;
   var correo = document.getElementById("email").value;
+  var regex = /[a-z.]+\@+[a-z]+\.+[a-z]+/g;
   var especie = document.getElementById("especie").value;
   var cantidad = document.getElementById("cantidad").value;
-  var regex = /[a-z.]+\@+[a-z]+\.+[a-z]+/g;
+
+  
   var alerta1 = document.getElementById("alerta1");
   var alerta2 = document.getElementById("alerta2");
   var alerta3 = document.getElementById("alerta3");
@@ -52,8 +54,8 @@ function clickeado() {
   else if (correo == "") {
     alerta2.innerHTML = "Complete campo correo";
 }
-else if (!regex.test(correo)) {
-   alerta2.innerHTML= "Debe introducir un correo valido";
+  else if (!regex.test(correo)) {
+    alerta2.innerHTML= "Debe introducir un correo valido";
 }
   else if (especie == "") {
     alerta3.innerHTML = "Complete campo especie";
