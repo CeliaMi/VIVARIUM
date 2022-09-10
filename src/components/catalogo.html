@@ -1,36 +1,48 @@
-<head>
-    <link rel="stylesheet" href="../css/Catalogo.css">
-</head>
+import React, { useState } from "react"
+import mas from '../imagenes/mas.svg'
+import '../css/catalogo.css';
+import Cards from '../db.json'
+import ReactCardFlip from 'react-card-flip';
 
-<div class="Catalogo">
-    <header class="Catalogo-header">
-        <!-- <div class="CardC">
-            <div class="CardC-inner">
-                <div class="CardC-face CardC-face-front">
-                    <div class="CardC-header">
-                        <img src="../imagenes/pradera-de-posidonia 2.svg" alt="" class="CardC-imagen">
-                        <h2>Posidonia Oceánica</h2>
-                        <img src="../imagenes/mas.png" alt="" class="CardC-boton-front">
-                    </div>
-                </div>
-                <div class="CardC-face CardC-face-back">
-                    <div class="CardC-content">
-                        <div class="CardC-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ducimus.</p>
-                            <a href="#" class="btn">Apadrinar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    </header>
-</div>
+function Catalogo() {
+  const [isFlipped, setIsFlipped] = useState(false);
 
-<script>
-    const card = document.querySelector('.CardC-inner');
-
-    card.addEventListener('click', function (){
-        card.classList.toggle('is-flipped')
-    });
-
-</script>
+  const handleClick = () => {
+    setIsFlipped(!isFlipped);
+  };
+  return (
+    <div className="Catalogo">
+    {
+      Cards.map(card => {
+      return(
+      <div className="Cards">
+          <div className="CardsInner"  key={ card.id }>
+          <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
+          {/* Tarjeta Front */}
+              <div className="CardsFace CardsFaceFront">
+                  <div className="CardsHeader">
+                  <img src={ card.img }  alt="" className="ImagenEspecie" />
+							    <h2>{ card.nombre }</h2>
+							    <div className="BotonMas">
+								    <img src={mas} className="VerMas" onClick={handleClick}/>
+							    </div>
+              </div>
+          </div>
+         {/* Tarjeta back */}
+              <div className="CardsFace CardsFaceBack">
+                   <div className="CardsBody" onClick={handleClick}>
+						            <p>{ card.texto }</p>
+					        </div>
+					        <div className="BotonBack">
+						      <a href="#" className="Btn">Apadrinar ❤️</a>
+					        </div>
+              </div>
+          </ReactCardFlip>
+        </div>
+    </div>
+    )
+  })
+  }
+  </div>
+  );
+}

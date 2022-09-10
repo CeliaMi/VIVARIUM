@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
 .Catalogo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #021B27;
+    font-family: 'Inter', sans-serif;
   }
   
   .Cards {
@@ -92,12 +95,12 @@
   }
   
   .CardsBody {
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 30px;
   }
   
   .CardsBody p {
-    background-color: #fff;
+    /* background-color: #fff; */
     color: #000;
     font-size: 20px;
     text-align: justify;
@@ -111,9 +114,8 @@
     border: 2px solid #031B27;
     border-radius: 5px;
     padding: 10px 30px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     text-decoration: none;
-    transition: 0.5s;
     position: absolute;
     display: flex;
     align-items: center;

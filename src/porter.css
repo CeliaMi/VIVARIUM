@@ -9,7 +9,7 @@
   }
   
 .Portada-header {
-    background-image: url("../src/imagenes/fondo-portada.jpg");
+    /* background-image: url("../src/imagenes/fondo-portada.jpg"); */
     background-size: cover;
     padding-bottom: 50px;
     padding-left: 20px;
