@@ -5,7 +5,7 @@ import Cards from "../db.json";
 
 
 function Catalogo() {
-  
+
   return (
     <div className="Catalogo">
       {Cards.map((card) => {
