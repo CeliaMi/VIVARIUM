@@ -5,7 +5,7 @@ function Card(props) {
   const [flippedClass, setFlippedClass] = useState('');
 
   return (
-    <div className="Cards">
+    <div className="Cards"> 
       <div className={`CardsInner ${flippedClass}`} key={props.card.id}>
         {/* Tarjeta Front */}
         <div className="CardsFace CardsFaceFront">
@@ -25,7 +25,7 @@ function Card(props) {
         {/* Tarjeta back */}
         <div className="CardsFace CardsFaceBack">
           <div className="CardsBody">
-          <span onClick={() => {
+          <span className="Equis" onClick={() => {
                 setFlippedClass("");
               }}>x</span>
             <p>{props.card.texto}</p>

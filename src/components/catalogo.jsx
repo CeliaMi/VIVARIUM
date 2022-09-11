@@ -3,7 +3,9 @@ import Card from "./card";
 import "../css/catalogo.css";
 import Cards from "../db.json";
 
+
 function Catalogo() {
+  
   return (
     <div className="Catalogo">
       {Cards.map((card) => {
@@ -12,5 +14,7 @@ function Catalogo() {
     </div>
   );
 }
+
+
 
 export default Catalogo;
