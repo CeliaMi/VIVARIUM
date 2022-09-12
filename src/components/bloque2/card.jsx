@@ -1,4 +1,4 @@
-import mas from "../imagenes/mas.svg";
+import mas from "../../imagenes/mas.svg";
 import React, {useState} from "react";
 
 function Card(props) {
