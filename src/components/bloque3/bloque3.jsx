@@ -2,9 +2,7 @@
 import './estilob3.css';
 import React from "react";
 import TiempoAemet from './ApiTiempo';
-
-
-
+import Formulario from './formulario';
 
 function Bloque3() {
   return (
@@ -23,14 +21,7 @@ function Bloque3() {
             <div>
               <h2 className="h2Bloque3">Apadrina</h2>
               <div className='cardFormulario'>
-                <form className='formulario'>
-                  <input className='inputform' placeholder='Nombre y apellidos' id=''></input>
-                  <input className='inputform' placeholder='Email' id=''></input>
-                  <input className='inputform' placeholder='Especies a adoptar' id=''></input>
-                  <input className='inputform' placeholder='Cantidad' id=''></input>
-                  <button className='enviar'>Enviar ❤</button>
-                  
-                </form>
+                <Formulario/>
               </div>
             </div>                 
     </section>
