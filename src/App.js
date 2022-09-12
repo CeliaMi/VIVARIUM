@@ -1,7 +1,7 @@
 import './App.css';
 //import db from "./db.json";
 import Portada from './components/portada';
-import Catalogo from './components/catalogo';
+import Catalogo from './components/bloque2/catalogo';
 import Bloque3 from './components/bloque3/bloque3';
 import Footer from './components/footer';
 

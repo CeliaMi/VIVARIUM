@@ -1,5 +1,10 @@
 
 import './estilob3.css';
+import React from "react";
+import TiempoAemet from './ApiTiempo';
+
+
+
 
 function Bloque3() {
   return (
@@ -7,8 +12,11 @@ function Bloque3() {
             <div>
               <h2 className="h2Bloque3">Observa</h2>   
               <div className='cardMapa'>
-                  <div className='apiMapa'></div>
-                  <div className='apiTiempo'></div>
+                  <div className='apiMapa' >
+                  </div>
+                  <div className='apiTiempo'>
+                    <TiempoAemet />
+                  </div>
               </div>
 
             </div>

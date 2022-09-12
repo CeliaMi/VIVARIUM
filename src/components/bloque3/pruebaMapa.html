@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            width: 444.61px;
+            height: 453.55px;
+            border-radius: 5px;
+            margin-right:39px;
+        }
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="mapa">
+    </div>
+ <script>
+    
+
+    var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://opendata.aemet.es/opendata/api/prediccion/maritima/altamar/area/2?api_key=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjZWxpYWZ1bGxzdGFja0BnbWFpbC5jb20iLCJqdGkiOiJhM2JkMjM2Zi05NGE1LTQwMjAtODhhNi1jNjMzMGRhN2QwMzEiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTY2MjU0Njk3NSwidXNlcklkIjoiYTNiZDIzNmYtOTRhNS00MDIwLTg4YTYtYzYzMzBkYTdkMDMxIiwicm9sZSI6IiJ9.b8CXI57c7GmD0aNKmzeAXGAjUIU8T5gvXxs_dbxuBJ0",
+  "method": "GET",
+  "headers": {
+    "cache-control": "no-cache"
+  }
+}
+const elTiempo = document.querySelector('div');
+
+$.ajax(settings).done(function (response) {
+    fetch( "https://opendata.aemet.es/opendata/sh/a6072fa5")
+    .then(res => res.json())
+    .then(data => {
+    elTiempo.innerHTML = data[0].situacion.texto;    
+    console.log(data[0].situacion.texto);
+  })});
+    
+    
+  
+
+    
+</script>   
+</body>
+</html>
