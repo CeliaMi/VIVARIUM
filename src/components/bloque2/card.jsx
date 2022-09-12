@@ -32,8 +32,7 @@ function Card(props) {
           </div>
           <div className="BotonBack">
             <a href="#" className="Btn">
-              Apadrinar ❤️
-            </a>
+              Apadrinar❤️</a>
           </div>
         </div>
       </div>

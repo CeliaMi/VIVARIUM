@@ -6,9 +6,10 @@
   font-family: 'Inter', sans-serif;
 }
 
-.Prueba{
+.Principal{
   padding-top: 60px;
-  background-color: #021B27;
+  background-color: #031B27;
+  /* background-color: #02021f; */
   padding-bottom: 60px;
 }
 
@@ -153,4 +154,3 @@
     cursor: pointer;
     margin-bottom: 10px;
   }
-  
