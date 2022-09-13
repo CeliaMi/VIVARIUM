@@ -141,3 +141,10 @@
       justify-content: center;
     }
   }
+
+  @media (max-width: 600px){
+    .cardFormulario{
+        margin-left: 0;
+    }
+
+  }
