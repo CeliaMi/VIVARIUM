@@ -97,37 +97,43 @@ li {
 
 .iconos {
   display: block;
+  width: 176px;
+  height: 50px;
   margin: auto;
-  margin-left: 74px;
+  margin-left: 60px;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: White;
 }
 
 .iconcito1 {
-  background-color: #fff;
-  width: 30px;
-  height: 30px;
+  background-image: url(/src/imagenes/facebook.svg);
+  width: 50px;
+  height: 50px;
   position: absolute;
 }
 
 .iconcito2 {
-  background-color: #fff;
-  width: 30px;
-  height: 30px;
+  background-image: url(/src/imagenes/wa-02.svg);
+  width: 50px;
+  height: 50px;
   margin-left: 40px;
   position: absolute;
 }
 
 .iconcito3 {
-  background-color: #fff;
-  width: 30px;
-  height: 30px;
+  background-image: url(/src/imagenes/Instagram-02.svg);
+  width: 50px;
+  height: 50px;
   margin-left: 80px;
   position: absolute;
 }
 
 .iconcito4 {
-  background-color: #fff;
-  width: 30px;
-  height: 30px;
+  background-image: url(/src/imagenes/linkedin-02.svg);
+  width: 50px;
+  height: 50px;
   margin-left: 120px;
   position: absolute;
 }

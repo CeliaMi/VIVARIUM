@@ -27,17 +27,3 @@ function Bloque3() {
 
 
 export default Bloque3;
-
-
-
-
-
-                  
-
-
-
-
-
-
-
-
