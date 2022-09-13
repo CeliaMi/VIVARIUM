@@ -147,3 +147,10 @@
     cursor: pointer;
     margin-bottom: 10px;
   }
+
+  @media (max-width: 1040px){
+    .Catalogo{
+      display: flex;
+      flex-direction: column;
+    }
+  }

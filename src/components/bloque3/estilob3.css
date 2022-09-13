@@ -1,4 +1,4 @@
-.bloque{
+.Bloque{
     background-image: url("../../imagenes/fondo-vivarium-web-rotada.png");
     display: flex;
     justify-content: center;
@@ -132,3 +132,12 @@
     color: #060c14;
     font-weight: bold;
 }
+
+@media (max-width: 1040px){
+    .Bloque{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
