@@ -1,5 +1,4 @@
 
-import ReCAPTCHA from 'react-google-recaptcha';
 import './estilob3.css';
 import React from 'react';
 import Formulario from './formulario';
