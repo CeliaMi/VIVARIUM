@@ -1,8 +1,14 @@
 
+import ReCAPTCHA from 'react-google-recaptcha';
 import './estilob3.css';
 
+
+
+
+
 function Bloque3() {
-  return (
+
+  return  (
     <section className="bloque">
             <div>
               <h2 className="h2Bloque3">Observa</h2>   
@@ -26,6 +32,12 @@ function Bloque3() {
                   <div id='alerta4'></div>
                   <button type='button' className='enviar' value='Enviar' onClick={clickeado}>Enviar ❤</button>
                   <div id='alerta5'></div>
+                  <div className="recaptcha">
+                    <ReCAPTCHA
+                        sitekey="6LcXmvAhAAAAAAOUdYLj3QptwgeXZGLEFwVYeWB7"
+                        
+                    />
+                  </div>
 
                 </form>
               </div>
@@ -33,10 +45,13 @@ function Bloque3() {
     </section>
   );
 }
+
+
+
 function clickeado() {
   var nombre = document.getElementById("nomape").value;
   var correo = document.getElementById("email").value;
-  var regex = /[a-z.]+\@+[a-z]+\.+[a-z]+/g;
+  var regex = /[a-z.]+[a-z]+\.+[a-z]+/g;
   var especie = document.getElementById("especie").value;
   var cantidad = document.getElementById("cantidad").value;
 
@@ -48,19 +63,19 @@ function clickeado() {
   var alerta5 = document.getElementById("alerta5");
     
   
-  if (nombre == "") {
+  if (nombre === "") {
     alerta1.innerHTML = "Complete campo nombre"; 
 } 
-  else if (correo == "") {
+  else if (correo === "") {
     alerta2.innerHTML = "Complete campo correo";
 }
   else if (!regex.test(correo)) {
     alerta2.innerHTML= "Debe introducir un correo valido";
 }
-  else if (especie == "") {
+  else if (especie === "") {
     alerta3.innerHTML = "Complete campo especie";
 }
-  else if (cantidad == "") {
+  else if (cantidad === "") {
     alerta4.innerHTML = "Complete campo cantidad";
 }
   else {
@@ -68,6 +83,8 @@ function clickeado() {
   }
     
 }
+
+
 
 
 export default Bloque3;
