@@ -9,7 +9,7 @@
   }
   
 .Portada-header {
-    background-image: url("../src/imagenes/fondo-vivarium-web.png");
+    background-image: url("../src/imagenes/fondo1.png");
     background-size: cover;
     padding-bottom: 50px;
     padding-left: 20px;
@@ -33,6 +33,7 @@
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
+    cursor: pointer;
   }
 
 .Barra {
@@ -45,8 +46,7 @@
 
 li {
   padding:10px;
-  
-
+  cursor: pointer;
 }
    
 .Entradilla{

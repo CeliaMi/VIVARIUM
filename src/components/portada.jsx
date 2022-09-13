@@ -1,6 +1,6 @@
 import logo from '../imagenes/Logovivarium.svg';
 import '../porter.css';
-import '../App.css'
+import { Link } from "react-scroll"
 
 function Portada() {
   return (
@@ -8,8 +8,14 @@ function Portada() {
       <header className="Portada-header">
       <nav>
           <ul className="Barra">
-            <li>Sobre Nosotros</li>
-            <li>Contacto</li>
+            <li><Link
+          to="Footer"
+          smooth={true}
+          duration={1200}>Sobre Nosotros</Link></li>
+            <li><Link
+          to="Footer"
+          smooth={true}
+          duration={1200}>Contacto</Link></li>
           </ul>
         </nav>
         <img src={logo} className="Portada-logo" alt="logo" />
@@ -18,15 +24,14 @@ function Portada() {
         Vivarium es un espacio donde vas a encontrar distintas especies con las que hacer match y ayudarles a equilibrar el ecosistema marino. Anímate a conocerlas y podrás tener un seguimiento personalizado.
         </p>
         <h2> Devuelve la vida al Mediterráneo</h2>
-        <a
-        
+        <Link
           className="App-link"
-          href="#formulario"
-          target="_blank"
-          rel="noopener noreferrer"
+          to="Bloque3"
+          smooth={true}
+          duration={1200}
         >
           APADRINAR
-        </a>
+        </Link>
         
       </header>
     </div>

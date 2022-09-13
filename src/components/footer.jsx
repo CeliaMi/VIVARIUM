@@ -18,18 +18,26 @@ function Footer() {
           <div className='cajita'>
             <h2>Contáctanos</h2>
             <div className='iconos'>
+                <a href="https://es-es.facebook.com/">
                 <div className='iconcito1'>
                   <p></p>
                 </div>
+                </a>
+                <a href="https://www.whatsapp.com/">
                 <div className='iconcito2'>
                   <p></p>
                 </div>
+                </a>
+                <a href="https://www.instagram.com/">
                 <div className='iconcito3'>
                   <p></p>
                 </div>
+                </a>
+                <a href="https://www.linkedin.com/feed/">
                 <div className='iconcito4'>
                   <p></p>
                 </div>
+                </a>
             </div>
           </div>
         </div>  
