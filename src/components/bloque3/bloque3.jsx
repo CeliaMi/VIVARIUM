@@ -8,7 +8,7 @@ function Bloque3() {
   return (
     <section className="bloque" id="formulario">
             <div>
-              <h2 className="h2Bloque3">Observa</h2>   
+              <h2 className="h2Bloque3">Observa</h2>
               <div className='cardMapa'>
                   <div className='apiMapa' >
                   </div>
@@ -23,7 +23,7 @@ function Bloque3() {
               <div className='cardFormulario'>
                 <Formulario/>
               </div>
-            </div>                 
+            </div>
     </section>
   );
 }

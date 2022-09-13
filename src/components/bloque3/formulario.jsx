@@ -1,4 +1,5 @@
 import './estilob3.css';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 function Formulario() {
 
@@ -49,6 +50,12 @@ function Formulario() {
         <div className='alertita' id='alerta3'></div>
         <input type='number' className='inputform' placeholder='Cantidad' id='cantidad'></input>
         <div className='alertita' id='alerta4'></div>
+        <div className="recaptcha">
+                    <ReCAPTCHA
+                        sitekey="6LcXmvAhAAAAAAOUdYLj3QptwgeXZGLEFwVYeWB7"
+
+                    />
+                  </div>
         <button type='button' className='enviar' value='Enviar' onClick={clickeado}>Enviar ❤</button>
         <div className='alertitaGuay' id='alerta5'></div>
 

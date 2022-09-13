@@ -4,6 +4,7 @@ import Portada from './components/portada';
 import Catalogo from './components/bloque2/catalogo';
 import Bloque3 from './components/bloque3/bloque3';
 import Footer from './components/footer';
+import Recaptcha from 'react-google-recaptcha';
 
 function App() {
   return (
