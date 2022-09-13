@@ -22,7 +22,16 @@
   }
   
 .App-link {
+    font-size: 1em;
     color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
   }
 
 .Barra {
@@ -79,6 +88,11 @@ li {
 
 .cajita {
   width: 300px;
+}
+
+.cajita p {
+  text-align: justify;
+ 
 }
 
 .iconos {

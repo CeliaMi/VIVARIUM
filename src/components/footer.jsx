@@ -9,7 +9,7 @@ function Footer() {
             <h3>Crear conciencia</h3>
             <p>Dar visibilidad al problema real que se está viviendo en nuestros mares e introducir una pequeña parte de la vida de los oceános en las casas de cada padrino o madrina,  para crear concienciación y un vínculo más allá de la distancia y la barrera de especies.</p> 
             <h3>Restaurar</h3>
-            <p>Para ello, gracias a los crushes que se generan en nuestro espacio, conservamos y repoblamos las gorgonias y posidonias del mar mediterráneo, frenando el declive y favoreciendo la creación de nuevos matches.</p>
+            <p>Para ello, gracias a los crushes que se generan en nuestro espacio, conservamos y repoblamos las gorgonias y posidonias del mar Mediterráneo, frenando el declive y favoreciendo la creación de nuevos matches.</p>
           </div>
           <div className='cajita'>
             <h2>Nosotros</h2>
