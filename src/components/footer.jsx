@@ -18,19 +18,19 @@ function Footer() {
           <div className='cajita'>
             <h2>Contáctanos</h2>
             <div className='iconos'>
-          <div className='iconcito1'>
-            <p></p>
-          </div>
-          <div className='iconcito2'>
-            <p></p>
-          </div>
-          <div className='iconcito3'>
-            <p></p>
-          </div>
-          <div className='iconcito4'>
-            <p></p>
-          </div>
-        </div>
+                <div className='iconcito1'>
+                  <p></p>
+                </div>
+                <div className='iconcito2'>
+                  <p></p>
+                </div>
+                <div className='iconcito3'>
+                  <p></p>
+                </div>
+                <div className='iconcito4'>
+                  <p></p>
+                </div>
+            </div>
           </div>
         </div>  
         
