@@ -1,5 +1,6 @@
 import logo from '../imagenes/Logovivarium.svg';
 import '../porter.css';
+import '../App.css'
 
 function Portada() {
   return (
@@ -19,7 +20,7 @@ function Portada() {
         <h2> Devuelve la vida a los océanos</h2>
         <a
           className="App-link"
-          href="#"
+          href="#formulario"
           target="_blank"
           rel="noopener noreferrer"
         >

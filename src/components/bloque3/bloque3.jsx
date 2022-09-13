@@ -6,7 +6,7 @@ import Formulario from './formulario';
 
 function Bloque3() {
   return (
-    <section className="bloque">
+    <section className="bloque" id="formulario">
             <div>
               <h2 className="h2Bloque3">Observa</h2>   
               <div className='cardMapa'>
