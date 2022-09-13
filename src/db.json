@@ -1,20 +1,20 @@
 [
     {
-        "identificación" : 1 ,
-        "nombre" : " Posidonia Oceánica " ,
-        "texto" : " Se trata de una planta marina exclusiva del Mediterráneo, pues da refugio a gran número de especies que se alimentan, se reproducen y se cobijan en estas praderas. Además, la posidonia filtra y oxigena las aguas, por lo que su presencia nos indica la buena calidad de las mismas. " ,
-        "img" : " https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Posidonia_oceanica_%28L%29.jpg/1280px-Posidonia_oceanica_%28L%29.jpg "
+        "id": 1,
+        "nombre": "Posidonia Oceánica",
+        "texto": "Se trata de una planta marina exclusiva del Mediterráneo, pues da refugio a gran número de especies que se alimentan, se reproducen y se cobijan en estas praderas. Además, la posidonia filtra y oxigena las aguas, por lo que su presencia nos indica la buena calidad de las mismas.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Posidonia_oceanica_%28L%29.jpg/1280px-Posidonia_oceanica_%28L%29.jpg"
     },
     {
-        "identificación" : 2 ,
-        "nombre" : " Gorgonia Abanico " ,
-        "texto" : " La gorgonia roja se encuentra sobre fondos rocosos o coralígenos situados entre los 15 y los 40 metros de profundidad, a pesar de que existen registros de hasta 100 metros de profundidad. Está presente en las aguas templadas del mar Mediterráneo, y en el océano Atlántico oriental, en Portugal y España. " ,
-        "img" : " https://www.ecoticias.com/wp-content/uploads/2022/01/TPWW_arrecifesas.jpg "
+        "id": 2,
+        "nombre": "Gorgonia Abanico",
+        "texto": "La gorgonia roja se encuentra sobre fondos rocosos o coralígenos situados entre los 15 y los 40 metros de profundidad, a pesar de que existen registros de hasta 100 metros de profundidad. Está presente en las aguas templadas del mar Mediterráneo, y en el océano Atlántico oriental, en Portugal y España.",
+        "img": "https://www.ecoticias.com/wp-content/uploads/2022/01/TPWW_arrecifesas.jpg"
     },
     {
-        "identificación" : 3 ,
-        "nombre" : " Gorgonia Candelabro " ,
-        "texto" : " La gorgonia amarilla se encuentra sobre fondos rocosos situados entre los 10 y los 30 metros de profundidad, a pesar de que existen registros a hasta 100 metros de profundidad. La gorgonia amarilla está presente en el mar Mediterráneo y en el Atlántico orientales. " ,
-        "img" : " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTujkzbdGjWM3WkuxgslHNY3Zsaq-I51UiU_AveutqbAo6Un9NGwZyUEyQihCnAGhOTYSE&usqp=CAU "
+        "id": 3,
+        "nombre": "Gorgonia Candelabro",
+        "texto": "La gorgonia amarilla se encuentra sobre fondos rocosos situados entre los 10 y los 30 metros de profundidad, a pesar de que existen registros a hasta 100 metros de profundidad. La gorgonia amarilla está presente en el mar Mediterráneo y en el Atlántico oriental.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTujkzbdGjWM3WkuxgslHNY3Zsaq-I51UiU_AveutqbAo6Un9NGwZyUEyQihCnAGhOTYSE&usqp=CAU"
     }
 ]
