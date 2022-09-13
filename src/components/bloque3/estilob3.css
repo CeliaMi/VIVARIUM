@@ -94,3 +94,15 @@
     justify-content: center;
     margin:10px auto;
 }
+
+.alertita {
+    color: red;
+    font-size: small;
+    font-weight: 400;
+}
+
+.alertitaGuay {
+    font-size: large;
+    color: #060c14;
+    font-weight: bold;
+}
