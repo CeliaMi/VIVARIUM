@@ -1,4 +1,4 @@
-.bloque{
+.Bloque{
     background-image: url("../../imagenes/fondo-vivarium-web-rotada.png");
     display: flex;
     justify-content: center;
@@ -60,6 +60,7 @@
     font-size:medium;
 }
 
+
 .cardMapa{
     background: #060c14;
     width: 444.61px;
@@ -72,25 +73,78 @@
 }
 
 .apiMapa{
-    background-color: rgb(248, 248, 248);
+    background-image:url("../../imagenes/mapaPorvi.png");
+    background-size: cover;
     width: 372px;
-    height: 263px;
+    height: 150px;
     left: 222px;
     top: 2730px;
     padding-top: 40px;
     align-items: center; 
     justify-content: center;
     margin:20px auto;
+    border-radius: 5px;
 }
 
 .apiTiempo{
-    background-color: white;
+    
     width: 372px;
-    height: 20px;
-    left: 222px;
+    height: 100px;
+    left: 300px;
     top: 2730px;
-    padding-top: 40px;
     align-items: center; 
     justify-content: center;
-    margin:10px auto;
+    margin:20px auto;
 }
+
+.apiTiempoPrediccion{
+    color:white;
+    font-size: small;
+    font-style: bold;
+    margin:0px auto;
+    align-items: center; 
+    justify-content: center;
+    padding-inline: 10px;
+}
+
+.avisoDatosTiempo{
+    background-color: #FFFFFF;
+    color:#060c14;;
+    font-size: small;
+    font-style: italic;
+    margin:10px auto;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 5px;
+    padding: 20px;
+
+
+}
+
+.alertita {
+    color: red;
+    font-size: small;
+    font-weight: 400;
+}
+
+.alertitaGuay {
+    font-size: large;
+    color: #060c14;
+    font-weight: bold;
+}
+
+@media (max-width: 1040px){
+    .Bloque{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 600px){
+    .cardFormulario{
+        margin-left: 0;
+    }
+
+  }

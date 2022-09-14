@@ -1,5 +1,6 @@
-import mas from "../../imagenes/mas.svg";
+import mas from "../../imagenes/VerMas.svg";
 import React, {useState} from "react";
+import { Link } from "react-scroll"
 
 function Card(props) {
   const [flippedClass, setFlippedClass] = useState('');
@@ -31,8 +32,12 @@ function Card(props) {
             <p>{props.card.texto}</p>
           </div>
           <div className="BotonBack">
-            <a href="#" className="Btn">
-              Apadrinar❤️</a>
+            <Link
+          className="Btn" 
+          to="Bloque3"
+          smooth={true}
+          duration={1200}>
+              Apadrinar🤍</Link>
           </div>
         </div>
       </div>

@@ -2,67 +2,170 @@
     text-align: center;
   }
   
-  @media (prefers-reduced-motion: no-preference) {
-    .Portada-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
 .Portada-header {
-    /* background-image: url("../src/imagenes/fondo-portada.jpg"); */
+    background-image: url("../src/imagenes/fondo1.png");
     background-size: cover;
-    padding-bottom: 50px;
-    padding-left: 20px;
+    padding: 50px 30px 50px;
     min-height: 100vh;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     font-size: calc(10px + 2vmin);
   }
+
+  .Portada-logo{
+    margin-top: 25px;
+  }
   
-.App-link {
+  .Barra {
+    display: flex;
+    justify-content: flex-end;
     color: #fff;
+    list-style:none;
+    font-size: 22px;
+    cursor: pointer;
   }
 
-.Barra {
-    list-style:none;
-    float: right;
-    
+  li {
+    display: inline-block; 
+    padding:10px; 
   }
+
+.App-link {
+    font-size: 1em;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+
+/* .Barra {
+    color: #fff;
+    list-style:none;
+float: right;
+    margin-left: 1000px;
+    display: inline-flex;
+  }
+
+li {
+  padding:10px;
+  cursor: pointer;
+} */
+   
+.Entradilla{
+  color: white;
+  text-align: center;
+  margin: 70px 300px 50px 300px;
+}
 
 
 h2 {
+  color: white;
   font-weight: 400;
+  text-align: center;
+  font-weight: bold;
+  margin:30px;
 }
 
-li {
-  display: inline-block; 
-  padding:10px; 
- 
- 
-  
 
-   
-    
-
-}
-  
 .Footer {
-
+    padding-top: 30px;
     color: #fff;
-    background-color: rgb(2, 2, 31);
-  }
+    background-color:#060c14;
+}
 
 .box {
   display: flex;
   justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .copy { 
   text-align: center;
+  padding: 10px;
 }
 
-.MisiónF {
-  text-align: left;
+.cajita {
+  width: 300px;
 }
+
+.cajita p {
+  text-align: justify;
+ 
+}
+
+.iconos {
+  display: block;
+  width: 176px;
+  height: 50px;
+  margin: auto;
+  margin-left: 60px;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: White;
+}
+
+.iconcito1 {
+  background-image: url(/src/imagenes/facebook.svg);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.iconcito2 {
+  background-image: url(/src/imagenes/wa-02.svg);
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.iconcito3 {
+  background-image: url(/src/imagenes/Instagram-02.svg);
+  width: 50px;
+  height: 50px;
+  margin-left: 80px;
+  position: absolute;
+}
+
+.iconcito4 {
+  background-image: url(/src/imagenes/linkedin-02.svg);
+  width: 50px;
+  height: 50px;
+  margin-left: 120px;
+  position: absolute;
+}
+
+@media (max-width: 1000px){
+  .Entradilla {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+} 
+
+@media (max-width: 700px){
+  .Entradilla {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+} 
+
+ @media (max-width: 1040px){
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+} 
