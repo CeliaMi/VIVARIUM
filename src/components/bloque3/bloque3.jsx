@@ -1,4 +1,3 @@
-
 import './estilob3.css';
 import React from "react";
 import TiempoAemet from './ApiTiempo';
@@ -6,7 +5,7 @@ import Formulario from './formulario';
 
 function Bloque3() {
   return (
-    <section className="bloque" id="formulario">
+    <section className="Bloque" id="formulario">
             <div>
               <h2 className="h2Bloque3">Observa</h2>
               <div className='cardMapa'>

@@ -2,25 +2,36 @@
     text-align: center;
   }
   
-  @media (prefers-reduced-motion: no-preference) {
-    .Portada-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
 .Portada-header {
     background-image: url("../src/imagenes/fondo1.png");
     background-size: cover;
-    padding-bottom: 50px;
-    padding-left: 20px;
+    padding: 50px 30px 50px;
     min-height: 100vh;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     font-size: calc(10px + 2vmin);
   }
+
+  .Portada-logo{
+    margin-top: 25px;
+  }
   
+  .Barra {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    list-style:none;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  li {
+    display: inline-block; 
+    padding:10px; 
+  }
+
 .App-link {
     font-size: 1em;
     color: #fff;
@@ -29,17 +40,18 @@
     border-radius: 5px;
     display: inline-block;
     padding: 10px 30px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
     cursor: pointer;
   }
 
-.Barra {
-    color: white;
+
+/* .Barra {
+    color: #fff;
     list-style:none;
-    float: right;
+float: right;
     margin-left: 1000px;
     display: inline-flex;
   }
@@ -47,14 +59,13 @@
 li {
   padding:10px;
   cursor: pointer;
-}
+} */
    
 .Entradilla{
   color: white;
   text-align: center;
-  margin: 100px 300px 30px 300px;
+  margin: 70px 300px 50px 300px;
 }
-
 
 
 h2 {
@@ -65,18 +76,8 @@ h2 {
   margin:30px;
 }
 
-h3{
-  margin:20px;
-}
-
-li {
-  display: inline-block; 
-  padding:10px; 
-}
-
 
 .Footer {
-
     padding-top: 30px;
     color: #fff;
     background-color:#060c14;
@@ -145,3 +146,26 @@ li {
   margin-left: 120px;
   position: absolute;
 }
+
+@media (max-width: 1000px){
+  .Entradilla {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+} 
+
+@media (max-width: 700px){
+  .Entradilla {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+} 
+
+ @media (max-width: 1040px){
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+} 
