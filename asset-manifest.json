@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vivarium/static/css/main.c358dcc3.css",
+    "main.js": "/vivarium/static/js/main.1fb4bc2e.js",
+    "static/js/787.1992402e.chunk.js": "/vivarium/static/js/787.1992402e.chunk.js",
+    "static/media/fondo1.png": "/vivarium/static/media/fondo1.a3c86b023587c63407a6.png",
+    "static/media/fondo-vivarium-web-rotada.png": "/vivarium/static/media/fondo-vivarium-web-rotada.21f659d40bb3919ae7d0.png",
+    "static/media/mapaPorvi.png": "/vivarium/static/media/mapaPorvi.fb7b198c31ea8403817a.png",
+    "static/media/Logovivarium.svg": "/vivarium/static/media/Logovivarium.4ee9ecb4fcd226078577a399b06bb60e.svg",
+    "static/media/wa-02.svg": "/vivarium/static/media/wa-02.c9471c09042e5e7784d6.svg",
+    "static/media/Instagram-02.svg": "/vivarium/static/media/Instagram-02.98d5b0321635f3cb008d.svg",
+    "static/media/linkedin-02.svg": "/vivarium/static/media/linkedin-02.eb3f3fe06b080285304a.svg",
+    "static/media/facebook.svg": "/vivarium/static/media/facebook.a75db534bfeda09ea2d4.svg",
+    "index.html": "/vivarium/index.html",
+    "static/media/VerMas.svg": "/vivarium/static/media/VerMas.c5fdbe277d6993965edbc17a4bf09025.svg",
+    "main.c358dcc3.css.map": "/vivarium/static/css/main.c358dcc3.css.map",
+    "main.1fb4bc2e.js.map": "/vivarium/static/js/main.1fb4bc2e.js.map",
+    "787.1992402e.chunk.js.map": "/vivarium/static/js/787.1992402e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c358dcc3.css",
+    "static/js/main.1fb4bc2e.js"
+  ]
+}
